@@ -16,6 +16,13 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        bebasNew: ["Bebas Neue"],
+        helveticaNow: ["Helvetica Now MT Text"],
+      },
+      backgroundImage: {
+        bio_bg: "url('/assets/images/landing_page/bio/bio_bg.png')",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -51,12 +58,12 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
         app: {
-          primary: "#FF4D00",
+          primary: "#359efe",
           bg: "#030100",
           header: "#b3e0ee",
           light: "rgb(249, 250, 251)",
           dark: "#030b16",
-          yellow: "#EA9D0C",
+          gray: "#61676f",
         },
       },
       borderRadius: {
