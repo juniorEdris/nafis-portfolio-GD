@@ -31,7 +31,7 @@ const LandingPageBio = () => {
               <div className="text-center md:pt-6">
                 <Link
                   href={`#about-me`}
-                  className={`flex justify-center items-center sm:inline-block py-3 px-6 rounded-md bg-app-primary md:text-xl text-app-light drop-shadow-xl hover:bg-opacity-80 ${appTransitionClasses}`}
+                  className={`flex justify-center items-center sm:inline-block py-3 px-6 rounded-md bg-app-primary md:text-lg text-app-light drop-shadow-xl hover:bg-opacity-80 ${appTransitionClasses}`}
                 >
                   HIRE ME
                 </Link>
